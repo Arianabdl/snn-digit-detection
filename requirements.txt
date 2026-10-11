@@ -1,0 +1,17 @@
+# Core (the SNN models themselves only need NumPy)
+numpy>=1.24
+matplotlib>=3.7
+opencv-python>=4.8       # DoG retina filter (GUI, notebook 01)
+tqdm>=4.60               # progress bars in the latency experiment
+
+# MNIST download + gradient-based comparison baselines
+torch>=2.0
+torchvision>=0.15
+snntorch>=0.7
+
+# Notebooks and tests
+jupyter
+pytest>=7
+
+# Tested with: Python 3.11.9, numpy 2.4.2, matplotlib 3.10.3, opencv-python 4.11.0,
+# torch 2.12.0, torchvision 0.27.0, snntorch 0.9.4, tqdm 4.67.1, pytest 8.4.2

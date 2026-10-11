@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded dataset (fetched automatically by torchvision)
+data/
+
+# Generated artifacts (recreate with the scripts)
+outputs/
+checkpoints/
+*.pkl
+*.pth
+*.pt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
